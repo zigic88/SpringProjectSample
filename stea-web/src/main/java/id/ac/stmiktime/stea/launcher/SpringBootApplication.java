@@ -23,7 +23,7 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 @Configuration
 @EnableAutoConfiguration
 @EnableWebSecurity
-@ComponentScan({"id.ac.stmiktime.stea","id.ac.stmiktime.stea.securityconf","id.ac.stmiktime.stea.launcher"})
+@ComponentScan("id.ac.stmiktime.stea")
 @EnableJpaRepositories("id.ac.stmiktime.stea")
 @EntityScan("id.ac.stmiktime.stea")
 public class SpringBootApplication extends SpringBootServletInitializer{
